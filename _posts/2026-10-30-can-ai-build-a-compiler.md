@@ -1,7 +1,7 @@
 ---
 title: "Can AI Build a Compiler? Notes from a JIT Module I Built"
 date: 2026-10-30 00:00:00 +0000
-categories: [Compilers, AI]
+categories: [Python, Compilers]
 tags: [jit, mindspore, python, compilers, ai-engineering]
 ---
 
