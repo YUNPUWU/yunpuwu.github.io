@@ -1,39 +1,36 @@
-# Chirpy Starter
+# yunpuwu.github.io
 
-[![Gem Version](https://img.shields.io/gem/v/jekyll-theme-chirpy)][gem]&nbsp;
-[![GitHub license](https://img.shields.io/github/license/cotes2020/chirpy-starter.svg?color=blue)][mit]
+Yunpu Wu 的个人博客：<https://yunpuwu.github.io>
 
-A minimal, ready-to-use template for creating a blog with the [**Chirpy**][chirpy] Jekyll theme. Get up and running in minutes with all critical files pre-configured.
+使用 [Chirpy](https://github.com/cotes2020/jekyll-theme-chirpy) 主题，推送到 `main` 分支后由 GitHub Actions 自动构建发布（约 1–2 分钟）。
 
-## Why This Starter Exists
+## 分类
 
-When installing Chirpy through [RubyGems.org][gem], Jekyll can only read a subset of theme files (`_data`, `_layouts`, `_includes`, `_sass`, `assets`) and limited `_config.yml` options from the gem. As a result, users cannot enjoy the full out-of-the-box experience that Chirpy offers.
+每篇文章选一个主分类，写法必须和下表完全一致（大小写、空格、`&`）。可以在后面加一个子分类，例如 `[AI Agents, LangGraph]`。
 
-To unlock all features, the following files must be present in your Jekyll site:
+| 分类（front matter 里的写法） | 中文 |
+| --- | --- |
+| `Machine Learning & NLP` | 机器学习和自然语言处理 |
+| `AI Agents` | AI 智能体 |
+| `Python` | Python |
+| `AI & Business` | AI 和商业 |
+| `Quant` | 量化 |
 
-```shell
-.
-├── _config.yml
-├── _plugins
-├── _tabs
-└── index.html
-```
+分类只有在有文章之后才会出现在网站的 Categories 页面。
 
-This starter bundles those files from the latest **Chirpy** release along with a [CD][CD] workflow, so you can start writing immediately.
+## 目录
 
-## Usage
+| 路径 | 用途 |
+| --- | --- |
+| `_posts/` | 已发布的文章，文件名 `YYYY-MM-DD-英文短标题.md` |
+| `_drafts/` | 草稿，不会发布；`post-template.md` 是新文章模板 |
+| `assets/img/posts/` | 文章配图 |
+| `_tabs/about.md` | About 页面 |
+| `_config.yml` | 网站设置（标题、副标题、头像、时区） |
+| `_data/contact.yml` | 侧边栏底部的联系图标 |
 
-Check out the [theme's docs](https://github.com/cotes2020/jekyll-theme-chirpy/wiki).
+## 发一篇新文章
 
-## Contributing
-
-This repository is automatically updated with new releases from the theme repository. If you encounter any issues or want to contribute to its improvement, please visit the [theme repository][chirpy] to provide feedback.
-
-## License
-
-This work is published under [MIT][mit] License.
-
-[gem]: https://rubygems.org/gems/jekyll-theme-chirpy
-[chirpy]: https://github.com/cotes2020/jekyll-theme-chirpy/
-[CD]: https://en.wikipedia.org/wiki/Continuous_deployment
-[mit]: https://github.com/cotes2020/chirpy-starter/blob/master/LICENSE
+1. 复制 `_drafts/post-template.md` 的内容。
+2. 在 `_posts/` 新建 `YYYY-MM-DD-英文短标题.md`，粘贴并修改标题、日期、分类、标签和正文。
+3. 提交（Commit）。日期不要写成未来时间，否则这篇不会发布。
