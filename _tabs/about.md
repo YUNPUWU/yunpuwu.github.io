@@ -13,12 +13,6 @@ Before the MSc I spent more than ten years building software:
 
 These days I'm building an agentic quant research platform with LangGraph, and thinking about where AI can take on serious engineering work.
 
-## What I write about
-
-- **Machine Learning & NLP**
-- **AI Agents**
-- **Python**
-- **AI & Business**
-- **Quant**
+On this blog I write about AI engineering, compilers and JITs, agentic systems, and how technology turns into business value.
 
 I'm looking for AI and software engineering roles in Ireland from September 2027. You can find me on [LinkedIn](https://www.linkedin.com/in/yunpu-wu-592a60392) or [GitHub](https://github.com/YUNPUWU).

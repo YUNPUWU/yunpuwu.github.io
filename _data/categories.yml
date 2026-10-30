@@ -1,0 +1,8 @@
+# Main blog categories, in display order.
+# They always appear on the Categories page, even before they have any posts.
+# A post uses them in its front matter, e.g.  categories: [AI Agents]
+- "Machine Learning & NLP"
+- "AI Agents"
+- "Python"
+- "AI & Business"
+- "Quant"
