@@ -16,7 +16,7 @@ Yunpu Wu 的个人博客：<https://yunpuwu.github.io>
 | `AI & Business` | AI 和商业 |
 | `Quant` | 量化 |
 
-分类只有在有文章之后才会出现在网站的 Categories 页面。
+这 5 个分类定义在 `_data/categories.yml`，会按顺序一直显示在网站的 Categories 页面上，还没有文章的显示为 0 posts。要增加、删除或改名分类，就改这个文件。
 
 ## 目录
 
@@ -27,7 +27,9 @@ Yunpu Wu 的个人博客：<https://yunpuwu.github.io>
 | `assets/img/posts/` | 文章配图 |
 | `_tabs/about.md` | About 页面 |
 | `_config.yml` | 网站设置（标题、副标题、头像、时区） |
+| `_data/categories.yml` | Categories 页面上固定显示的分类及顺序 |
 | `_data/contact.yml` | 侧边栏底部的联系图标 |
+| `_layouts/categories.html` | 自定义的 Categories 页面（一般不用改） |
 
 ## 发一篇新文章
 
